@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #8491a3;
+  }
+  .beast{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+  }
+.main-container{
+    width: 400px;
+    background-color: #eeeeee;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 280px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    height: 106px;
+   
+}
+.digits{
+    padding-top: 8px;
+    text-align: center;
+   
+}
+.digits span{
+font-size: 40px;
+}
+.button{
+    margin-top: 2px;
+    text-align: center;
+    margin-left: 9px;
+    padding-bottom: 9px;
+   
+}
+/* i{
+    padding:0px 5px;
+} */
+.fa-square{
+    position: absolute;
+   top: 340px;
+   left: 710px;
+    font-size: 25px;
+
+    color: #303841;
+}
+.fa-play{
+    position:absolute;
+    top: 333px;
+    left: 750px;
+    font-size: 40px;
+    color: #303841;
+    /* visibility: hidden; */
+}
+.fa-arrow-rotate-left{
+    position: absolute;
+    top: 340px;
+    left: 790px;
+    font-size: 25px;
+    color: #303841;
+}
+.fa-pause{
+    position: absolute;
+    color:#303841;
+    font-size: 40px;
+    top: 332px;
+    left: 750px;
+    
+}
+.hide{
+    visibility: hidden;
+}
+.fa-arrow-rotate-left:hover{
+    font-size:30px;
+    top:338px;
+}
+.fa-pause:hover{
+font-size: 45px ;
+}
+.fa-play:hover{
+    font-size: 43px;
+}
+.fa-square:hover{
+   font-size: 30px;
+   top: 338px;
+}

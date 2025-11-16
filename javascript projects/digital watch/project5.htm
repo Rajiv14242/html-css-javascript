@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="project5.css">
+</head>
+<body>
+    <div class="main_container">
+        <div class="box-a"></div>
+        <div class="box-b"></div>
+        <div class="inner_box">
+         <div class="inner_container">
+            <span id="hour">00</span><span class="a H">HOURS</span>
+            <span>:</span>
+            <span id="minute">00</span><span class="a M">MINS</span>
+            <span>:</span>
+            <span id="second">00</span><span class="a S">SEC</span>
+         </div>
+        </div>
+    </div>
+    <script>
+       
+        let hour=document.getElementById("hour");
+        let min=document.getElementById("minute");
+        let sec=document.getElementById("second");
+        
+        
+        setInterval(()=>{
+            let samaye=new Date();
+            hour.innerHTML=((samaye.getHours())<10?"0":"")+samaye.getHours();
+            min.innerHTML=((samaye.getMinutes())<10?"0":"")+samaye.getMinutes();
+            sec.innerHTML=((samaye.getSeconds())<10?"0":"")+samaye.getSeconds();
+
+        },1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="project3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="main-cointainer">
+    <div class="phone-a">
+       <div class="phone-b">
+        <div class="top-bar">
+            <span id="time"></span><img src="project3/network.png" class="a-img"><i class="fa-solid fa-home b-img" style="color: white;font-size: 11px;"></i><img class="c-img"src="project3/battery.png">
+            <div id="form">
+                <form>
+                    <input class="top-display" type="text" name="display" value="" id="view">
+                   
+                    <div class="row1">
+                    <input type="button" value="AC" onclick="display.value=''" > 
+                    <input type="button" value="+/-" onclick="display.value=display.value.toString().slice(0,-1)"/>
+                    <input type="button" value="%" onclick="display.value+='%'">
+                    <input type="button" value="&#247" id="last-a" onclick="display.value+='/'">
+                </div> 
+                <div class="row2">
+                    <input type="button" value="7" onclick="display.value+='7'">
+                    <input type="button" value="8" onclick="display.value+='8'">
+                    <input type="button" value="9" onclick="display.value+='9'">
+                    <input type="button" value="x" id="last-b" onclick="display.value+='*'">
+                </div>   
+                <div class="row3">
+                    <input type="button" value="4" onclick="display.value+='4'">
+                    <input type="button" value="5" onclick="display.value+='5'">
+                    <input type="button" value="6" onclick="display.value+='6'">
+                    <input type="button" value="-" id="last-c" onclick="display.value+='-'">
+                </div>    
+                <div class="row4">
+                    <input type="button" value="1" onclick="display.value+='1'">
+                    <input type="button" value="2" onclick="display.value+='2'">
+                    <input type="button" value="3" onclick="display.value+='3'">
+                    <input type="button" value="+" id="last-d" onclick="display.value+='+'">
+                </div>
+                <div class="row5">
+                    <input type="button" value="0" id="bit_button" onclick="display.value+='0'" >
+                    <input type="button" value="." onclick="display.value+='.'">
+                    <input type="button" value="=" id="last-e" onclick="display.value=eval(display.value)">
+                </div>    
+                </form>
+            </div>       
+        </div>
+        <p class="hr_line"></p>
+       </div>
+    </div>
+    </div>
+    <script src="project3.js">    
+    </script>
+</body>
+</html>

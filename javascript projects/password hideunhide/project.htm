@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+    <input type="password" placeholder="password" id="input-box"><i class="fa-solid fa-eye hide" id="a" onclick="fun()"></i><i class="fa-solid fa-eye-slash" id="b" onclick="fun()"></i>
+</div>
+<script>
+    input=document.getElementById("input-box");
+    button1=document.getElementById("a");
+    button2=document.getElementById("b");
+    
+    function fun(){
+        
+        
+        if(input.type==='password'){
+        input.type="text";
+        button2.classList.toggle("hide");
+        button1.classList.toggle("hide");
+       }else{
+        input.type='password';
+        button1.classList.toggle("hide");
+        button2.classList.toggle("hide");
+       }
+    
+    }
+</script>
+</body>
+</html>

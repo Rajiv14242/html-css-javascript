@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background: #3c5077;
+ width: 100%;
+ height: 100vh;
+}
+#btn{
+    position: relative;
+    width: 120px;
+    padding: 10px 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+   
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: #fffdff;
+}
+.pop-up{
+    position: absolute;
+      top: 0;
+    
+    background-color: #fff;
+    
+    transform: scale(0);
+    transition: 0.3s;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    background-color: #fff;
+    margin-top: -105px;
+    /* visibility: hidden; */
+}
+.after{
+    /* border: 1px solid green; */
+    top: 45%;
+    transform: scale(1);
+}
+    img{
+    position: relative;
+    top: -38px;
+    left: 136px;
+    /* width: 55px;
+    border: 1px solid black; */
+}
+.topic{
+    text-align: center;
+    font-size: 33px;
+    /* border: 1px solid black; */
+    margin-top: -30px;
+}
+pre{margin-left: -40px;
+    margin-top: -9px;
+    font-size: 16px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.details{
+    margin-top: -18px;
+    text-align: center;
+}
+#second-btn{
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 10px 0px;
+    background-color:rgb(4,209,53);
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+/* #btn{
+    position: relative;
+    border: 1px solid black;
+    background-color: #fffdff;
+    width: 140px;
+    padding: 10px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 250px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+.small{
+        position:relative;
+        margin-top: -120px;
+        margin-left: 18px;
+        left: 36%;
+        background-color: #fffdff;
+        height: 160px;
+        padding: 20px;
+        width: 290px;
+        
+        transform:scale(0.2);
+        visibility: hidden;
+       transition: 0.1s;
+        
+}
+.pop-up{
+    position: relative;
+    border: 1px solid black;
+    top:135px;
+    left: 36%;
+    translate:transform(-50%,-50%) ;
+    background-color: #fffdff;
+    height: 160px;
+    padding: 20px;
+    width: 290px;
+    visibility:visible;
+    /* transform: scale(0.2); */
+/* ] */
+/* 
+
+  img{
+    position: absolute;
+    width: 70px;
+    left: 138px;
+    top: -50px;
+ }
+ h2{
+    text-align: center;
+ }
+ p{
+    text-align: center;
+ }
+ #second-btn{
+     
+     padding: 8px 0px;
+     text-align: center;
+     color: #fffdff;
+     background-color:rgb(4,209,53) ;
+ } */ 

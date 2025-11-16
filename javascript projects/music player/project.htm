@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+       <div class="player_container">
+        <div class="top_div">
+            <i class="fa-solid fa-chevron-left"></i>
+        <i class="fa-solid fa-bars"></i>
+        </div>
+        <img src="images/arijit.jpg" alt="arijit sigh" id="img">
+        <div class="song_name">
+            Tu Mera Koi Na</div>
+            <div class="artist_name">Arijit singh</div>
+        
+        <audio  id="audio">
+            <source src="songs/Tu Mera Koi Na Hoke Bhi Kuch Lage (Official Video) Arijit Singh _ Vanun, Kri.m4a" type="audio/mpeg">
+        </audio>
+        <input type="range" value="0" class="progress_bar_class" id="progress">
+        <div class="bottom_icon">
+        <i class="fa-solid fa-backward"></i>
+        <i class="fa-solid fa-play" id="playbtn" onclick="pauseplay()"></i>
+        <i class="fa-solid fa-forward"></i>
+        </div>
+    </div>
+    </div>
+
+    <script src="project.js"></script>
+</body>
+</html>

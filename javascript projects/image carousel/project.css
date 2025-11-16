@@ -1,0 +1,50 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+.container{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top:10px ;
+}
+img{
+    height: 540px;
+    width:800px;
+}
+i{
+    font-size: 30px;
+}
+.images{
+    display: none;
+}
+ .fa-arrow-left{
+    position: relative;
+    bottom: 320px;
+    font-size: 38px;
+    left: 300px;
+    color: whitesmoke;
+    cursor: pointer;
+    
+    
+}
+.fa-arrow-right{
+    position: relative;
+    bottom:320px;
+    left: 970px;
+    font-size: 38px;
+    color: whitesmoke;
+    cursor: pointer;
+    
+}
+.button{
+    display: none;
+}
+.fa-solid:hover{
+    color: rgb(224, 44, 31);
+}

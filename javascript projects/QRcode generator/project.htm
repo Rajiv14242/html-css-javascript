@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+    <div class="container">
+       <p class="paragraph">Enter your text Or URL</p>
+       <input type="text" placeholder="text or url" class="input" id="input">
+       <div class="qr_container" id="qr_container">
+          <img src="" alt="QR" id="img"> 
+       </div>
+       <button class="button" onclick="func()" id="button" >Generate QR Code</button>
+    </div>
+    <script>
+        let input=document.getElementById("input");
+        let qr_container=document.getElementById("qr_container");
+        let img=document.getElementById("img");
+        let but=document.getElementById("button");
+        function func(){
+            if(input.value.length>0){
+            img.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+input.value;
+            qr_container.classList.add("qr_container_new");
+            input.value="";
+        }else{
+            alert("Input field is empty");
+            qr_container.classList.remove("qr_container_new");
+        }
+    }
+    input.addEventListener('keyup',(e)=>{
+        if(e.keyCode==13){
+            func();
+        }
+    });
+    </script>
+</body>
+</html>

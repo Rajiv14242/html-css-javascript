@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop Up</title>
+    <link rel="stylesheet" href="project4.css">
+</head>
+<body>
+   
+    <div class="container">
+      <div id="btn" onclick="show_pop()">Submit</div>
+       <div  class="pop-up" id="pop-up" >
+        <img src="project4/check.png">
+        <p class="topic">Thank You!</p>
+        <p class="details">Your details have been successfully <pre>
+          submitted.Thanks!</pre> </p>
+        <div id="second-btn" onclick="close_pop()">OK</div>
+       </div>
+      </div>
+    
+    <script>
+        
+        function show_pop(){
+          const dup=document.getElementById("pop-up");
+          dup.classList.add("after");
+          
+          
+        }
+        function close_pop(){
+            const dup2=document.getElementById("pop-up");
+            dup2.classList.remove("after");
+        }
+
+    </script>
+</body>
+</html>

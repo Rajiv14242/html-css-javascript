@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="project7.css">
+</head>
+<body>
+    <div class="button">
+      <button id="buttonfirst" onclick="func('Successfully submitted','images/check.png')">Success</button>
+      <button id="buttonsecond"onclick="func('Please fix the error','images/close.png')">Error</button>
+      <button id="buttonthird" onclick="func('Invalid input check again','images/exclamatory.png')">Invalid</button>
+    </div>
+    
+    <div class="display_popup" id="container">
+      
+    </div>
+    <script>
+        const var1=document.getElementById("container");
+        
+        function func(txt,url){
+         const F=document.createElement("p");
+         const G=document.createElement("p");
+         const img=document.createElement("img");
+         img.classList.add("image-format");
+         G.innerHTML=txt;
+         G.style.display="inline-block";
+         img.src=url;
+        
+         F.appendChild(img);
+         F.appendChild(G);
+         F.classList.add("format");
+         var1.appendChild(F);
+         setTimeout(()=>{
+            F.remove();
+        },6000);
+        }
+        
+    </script>
+</body>
+</html>
