@@ -1,0 +1,301 @@
+
+        .nav-list,.nav-list li{
+            display: inline-block;
+        }
+        .nav-list a{
+            text-decoration: none;
+            color:#8b8b8b;
+            padding: 10px;
+            font-size: 15px;
+            
+        }
+        .nav-list{
+            left: 420px;
+            position: absolute;
+            top: 45px;
+        }
+        .nav-image{
+         margin-left: 170px;  
+          
+        }
+        .nav{
+            
+            margin-bottom: -50px;
+        }
+       .topic{
+        font-weight: bold;
+        font-size: 58px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: center;
+        padding-bottom: 0px;
+        padding-top: 40px;
+        height: 50px;
+        color: #ffffff;
+        
+         }
+         .topicc{
+           z-index: 2;
+            margin-top: -60px;
+            font-weight: bold;
+            font-size: 58px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            text-align: center;
+            padding-bottom: 0px;
+            padding-top: 25px;
+            height: 60px;
+            color:  #ffffff;
+            text-decoration: underline;
+            text-decoration-skip-ink: none;
+            text-underline-offset: -10px;
+            text-decoration-color: #0fcdb5;
+            text-decoration-thickness: 23px;
+            
+           
+         }
+        .searchbar-a,.searchbar-b,.searchbar-c{
+            display: inline-block;
+            background-color: #ffffff;
+            color: #afafaf;
+            border-radius: 5px;
+            
+        }
+        .searchbar-a{
+           
+            padding: 17px 180px 17px 10px;
+            margin-left: 300px;
+        }
+        .searchbar-b{
+            
+            padding: 17px 60px 17px 10px;
+        }
+        .searchbar-c{
+            
+            padding: 10px 40px 10px 40px;
+            background-color: #ff7e27;
+            color: #ffedba;
+        }
+        .searchbar-d,.searchbar-e{
+            display: inline-block;
+            position:relative;
+            font-family: Source Sans Pro;
+            border-radius: 5px;
+            background-color: #ff7e27;
+            font-weight: bold;
+            padding: 10px 60px 10px 60px;
+            color: #fff6ef;
+
+        }
+        .searchbar-d{
+            
+            right: -395px;
+        }
+        .searchbar-e{
+            left:450px;
+        }
+        .second-topic{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: bold;
+         text-align: center;
+         font-size: 45px;
+         color: #ffffff;   
+         text-decoration: underline;
+         text-underline-offset: -8px;
+         text-decoration-thickness: 18px;
+         text-decoration-skip-ink: none;
+         text-decoration-color: #ff7e27;         
+        }
+        .second-detail{
+            text-align: center;
+            color: #ffffff;   
+            font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+        }
+        .remaining{
+            margin-top: -20px;
+            text-align: center;
+            color: #ffffff;     
+        }
+        .button-a,.button-b{
+            display: inline-block;
+            
+            padding:10px 60px 10px 60px;
+            background-color: #ff7e27;
+            color: #fff6ef;
+
+            
+        }
+        .button-a{
+            margin-left: 400px;
+            font-family: Source Sans Pro;
+            font-weight: bold;
+        
+        }
+        .button-b{
+            margin-left: 80px;
+            font-family: Source Sans Pro;
+            font-weight: bold;
+        }
+        .container{
+           
+            background-image: url('images/main.jpg');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+           }
+        .second{
+            font-weight: bold;
+        font-size: 30px;
+        font-family: sans-serif;
+        text-align: center;
+        color: #4c4c4c;
+        }
+    
+        #wave{
+            margin-top: -200px;
+            z-index: 1;
+        }
+        .line{
+            background-color: #ebebeb;
+        }
+        .second-title{
+            font-weight: bold;
+            font-size: 50px;
+            font-family: sans-serif;
+            text-align: center;
+            letter-spacing: -3px;
+            color: #4c4c4c;
+            text-decoration: underline;
+            text-decoration-thickness: 18px;
+            text-underline-offset: -8px;
+            text-decoration-color: #0fcdb5;
+            text-decoration-skip-ink: none;
+        }
+        .horizontal-image1 img{
+            width: 120px;
+            margin-left: 18.5%;
+        }
+        .span1,.span2,.span3{
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 30px;
+            color: #4c4c4c;
+            margin-left: 20.2%;
+        }
+        .span1{
+           padding-left: 3px;
+        }
+        .span3{
+            position: absolute;
+            right: 240px;
+        }
+        .span1-below,.span2-below,.span3-below{
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 15px;
+            color: #4c4c4c;
+        }
+        .span1-below{
+            margin-left: 17.5%;
+        }
+        .span2-below{
+            position: absolute;
+            left: 584px;
+        }
+        .span3-below{
+            position: absolute;
+            right: 180px;
+        }
+        .button1,.button2,.button3{
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 15px;
+            color: #ffffff;
+            padding:10px 50px 10px 50px;
+            background-color: #ff7e27;
+            
+        }
+        .button1{
+            margin-left:15.5% ;
+        }
+        .button2{
+            position: relative;
+            left:157px;
+            
+        }
+        .button3{
+            position: relative;
+            left: 300px;
+        }
+        .line2{
+            margin-top: -13px;
+        }
+        .third-title{
+            font-weight: bold;
+            font-size: 50px;
+            font-family: sans-serif;
+            text-align: center;
+            letter-spacing: -3px;
+            color: #4c4c4c;
+            margin-top: -3px;
+            text-decoration: underline;
+            text-decoration-thickness: 18px;
+            text-underline-offset: -8px;
+            text-decoration-color: #0fcdb5;
+            text-decoration-skip-ink: none;
+        }
+       .horizontal-image2 img{
+        width: 120px;
+        margin-left: 18.5%;
+       }
+       .span4,.span5,.span6{
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 30px;
+        color: #4c4c4c;
+        margin-left: 20.2%;
+    }
+    .span4{
+       padding-left: 3px;
+    }
+    .span6{
+        position: absolute;
+        right: 240px;
+    }
+    .span4-below,.span5-below,.span6-below{
+            font-weight: bold;
+            font-family: sans-serif;
+            font-size: 15px;
+            color: #4c4c4c;
+    }
+    .span4-below{
+        margin-left: 17.3%;
+    }
+    .span5-below{
+        position: relative;
+        left: 157px;
+    }
+    .span6-below{
+        position: relative;
+        left: 280px;
+    }
+    .button4,.button5,.button6{
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 15px;
+        color: #ffffff;
+        padding:10px 50px 10px 50px;
+        background-color: #ff7e27;
+    }
+    .button4{
+        margin-left:15.8% ;
+    }
+    .button5{
+        position:relative;
+        left: 161px;
+    }
+    .button6{
+        position: relative;
+        left:300px;
+    }
+    .topicc{
+
+    }
